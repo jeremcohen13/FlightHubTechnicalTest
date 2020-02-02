@@ -41,13 +41,13 @@ function App() {
         <Switch>
           <BrowserRouter exact path="/"></BrowserRouter>
           <BrowserRouter exact path="/People">
-            <People />
+            <People data={people} />
           </BrowserRouter>
           <BrowserRouter exact path="/Planets">
-            <Planets />
+            <Planets data={planets} />
           </BrowserRouter>
           <BrowserRouter exact path="/Starships">
-            <Starships />
+            <Starships data={starships} />
           </BrowserRouter>
         </Switch>
       </BrowserRouter>
