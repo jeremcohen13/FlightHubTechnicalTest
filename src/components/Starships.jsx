@@ -4,7 +4,7 @@ import { Card, Grid } from "semantic-ui-react";
 export default function Starships({ data }) {
   return (
     <div>
-      <h1>Planets</h1>
+      <h1>Starships</h1>
       <Grid columns={4}>
         {data.map((req, res) => {
           return (
