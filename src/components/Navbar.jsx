@@ -5,7 +5,7 @@ import { Menu } from "semantic-ui-react";
 export default function Navbar() {
   return (
     <Menu inverted>
-      <Link to="/">
+      <Link to="/Home">
         <Menu.Item name="Home"></Menu.Item>
       </Link>
       <Link to="/People">
@@ -16,6 +16,9 @@ export default function Navbar() {
       </Link>
       <Link to="/Starships">
         <Menu.Item name="Starships"></Menu.Item>
+      </Link>
+      <Link to="/Search">
+        <Menu.Item name="Search"></Menu.Item>
       </Link>
     </Menu>
   );
