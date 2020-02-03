@@ -5,6 +5,7 @@ import { BrowserRouter, Switch } from "react-router-dom";
 import People from "./components/People";
 import Planets from "./components/Planets";
 import Starships from "./components/Starships";
+import Searchbar from "./components/Searchbar"
 
 function App() {
   let [people, setPeople] = useState([]);
@@ -48,6 +49,9 @@ function App() {
           </BrowserRouter>
           <BrowserRouter exact path="/Starships">
             <Starships data={starships} />
+          </BrowserRouter>
+          <BrowserRouter>
+          <Searchbar  />
           </BrowserRouter>
         </Switch>
       </BrowserRouter>

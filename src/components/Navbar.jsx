@@ -17,6 +17,9 @@ export default function Navbar() {
       <Link to="/Starships">
         <Menu.Item name="Starships"></Menu.Item>
       </Link>
+      <Link to="/Search">
+        <Menu.Item name="Search"></Menu.Item>
+      </Link>
     </Menu>
   );
 }
