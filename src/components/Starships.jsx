@@ -1,10 +1,10 @@
 import React from "react";
-import { Card, Grid } from "semantic-ui-react";
+import { Card, Grid, Header } from "semantic-ui-react";
 
 export default function Starships({ data }) {
   return (
     <div>
-      <h1>Starships</h1>
+      <Header>Starships</Header>
       <Grid columns={4}>
         {data.map((req, res) => {
           return (

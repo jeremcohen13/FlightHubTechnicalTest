@@ -1,10 +1,10 @@
 import React from "react";
-import { Card, Grid } from "semantic-ui-react";
+import { Card, Grid, Header } from "semantic-ui-react";
 
 export default function People({ data }) {
   return (
     <div>
-      <h1>People</h1>
+      <Header>People</Header>
       <Grid columns={4}>
         {data.map((req, res) => {
           return (

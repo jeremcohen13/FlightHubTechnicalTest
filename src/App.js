@@ -63,7 +63,7 @@ function App() {
             <Starships data={starships} />
           </BrowserRouter>
           <BrowserRouter>
-            <Searchbar data={searchPeople} />
+            <Searchbar />
           </BrowserRouter>
         </Switch>
       </BrowserRouter>
