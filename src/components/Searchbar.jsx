@@ -59,9 +59,9 @@ class Searchbar extends Component {
                     <strong>Hair Color</strong>
                     <List.Content>{person.hair_color}</List.Content>
                     <strong>Mass</strong>
-                    <List.Content>{person.hair_color}</List.Content>
+                    <List.Content>{person.mass}</List.Content>
                     <strong>Birth Year</strong>
-                    <List.Content>{person.hair_color}</List.Content>
+                    <List.Content>{person.birth_year}</List.Content>
                     <strong>Height</strong>
                     <List.Content>{person.height}</List.Content>
                   </List.Item>

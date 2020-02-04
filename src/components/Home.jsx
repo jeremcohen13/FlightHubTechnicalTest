@@ -7,7 +7,7 @@ export default function Home() {
       <h2>
         Welcome to the Star Wars guide. This is your complete guide for all Star
         Wars main characters, important planets and crucial starships throughout
-        the movies!
+        the movies! May the force be with you!
       </h2>
     </div>
   );
