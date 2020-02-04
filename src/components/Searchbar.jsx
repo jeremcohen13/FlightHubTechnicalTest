@@ -40,12 +40,11 @@ class Searchbar extends Component {
     return (
       <Container textAlign="center">
         <form>
-          <h3 style={{ alignContent: "center" }}>Search Characters</h3>
+          <h3>Search Characters</h3>
           <Input
             style={{ width: "100%", alignContent: "center" }}
             type="text"
             className="search-box"
-            focus
             placeholder="Search for..."
             onKeyDown={this.onKeydown}
           />
