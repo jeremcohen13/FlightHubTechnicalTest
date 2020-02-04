@@ -1,4 +1,4 @@
-## SWAPi API Project
+## SWAPI API Project
 
 ## Summary
 
