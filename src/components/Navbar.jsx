@@ -4,9 +4,9 @@ import { Menu } from "semantic-ui-react";
 
 export default function Navbar() {
   return (
-    <Menu inverted>
+    <Menu inverted borderless>
       <Link to="/Home">
-        <Menu.Item name="Home"></Menu.Item>
+        <Menu.Item name="Home" style={{ color: "##ffe81f" }}></Menu.Item>
       </Link>
       <Link to="/People">
         <Menu.Item name="People"></Menu.Item>

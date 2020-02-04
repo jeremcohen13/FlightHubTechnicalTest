@@ -1,18 +1,20 @@
 import React from "react";
-import { Card, Grid, Header } from "semantic-ui-react";
+import { Card, Grid } from "semantic-ui-react";
 
 export default function Starships({ data }) {
   return (
     <div>
-      <Header>Starships</Header>
+      <h3>Starships</h3>
       <Grid columns={4}>
         {data.map((req, res) => {
           return (
             <Grid.Column key={res}>
-              <Card>
+              <Card style={{ background: "black" }}>
                 <Card.Content>
-                  <Card.Header>{req.name}</Card.Header>
-                  <Card.Description>
+                  <Card.Header style={{ color: "#ffe81f" }}>
+                    {req.name}
+                  </Card.Header>
+                  <Card.Description style={{ color: "#ffe81f" }}>
                     <strong>Model</strong>
                     <p>{req.model}</p>
                     <strong>Manufacturer</strong>
