@@ -9,7 +9,7 @@ export default function Starships({ data }) {
         {data.map((req, res) => {
           return (
             <Grid.Column key={res}>
-              <Card style={{ background: "black" }}>
+              <Card link style={{ background: "black" }}>
                 <Card.Content>
                   <Card.Header style={{ color: "#ffe81f" }}>
                     {req.name}

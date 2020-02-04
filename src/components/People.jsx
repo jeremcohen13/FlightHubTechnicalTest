@@ -3,13 +3,13 @@ import { Card, Grid } from "semantic-ui-react";
 
 export default function People({ data }) {
   return (
-    <div className="example">
+    <div>
       <h3>People</h3>
       <Grid columns={4}>
         {data.map((req, res) => {
           return (
             <Grid.Column key={res}>
-              <Card style={{ background: "black" }}>
+              <Card link style={{ background: "black" }}>
                 <Card.Content>
                   <Card.Header style={{ color: "#ffe81f" }}>
                     {req.name}
