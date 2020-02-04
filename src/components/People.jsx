@@ -4,8 +4,8 @@ import { Card, Grid } from "semantic-ui-react";
 export default function People({ data }) {
   return (
     <div>
-      <h3>People</h3>
-      <Grid columns={4}>
+      <h2>People</h2>
+      <Grid columns={4} style={{ paddingLeft: "4rem" }}>
         {data.map((req, res) => {
           return (
             <Grid.Column key={res}>

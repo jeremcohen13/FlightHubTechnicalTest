@@ -40,7 +40,7 @@ class Searchbar extends Component {
     return (
       <Container textAlign="center">
         <form>
-          <h3>Search Characters</h3>
+          <h2>Search Characters</h2>
           <Input
             style={{ width: "100%", alignContent: "center" }}
             type="text"
@@ -52,7 +52,7 @@ class Searchbar extends Component {
           <Grid columns={2} style={{ paddingTop: "4rem" }}>
             {this.state.people.map(person => (
               <Grid.Column key={person.name}>
-                <List>
+                <List animated>
                   <List.Item>
                     <h2>{person.name}</h2>
 
